@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  body {
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  ul,
+  ol {
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+
+
+.top-bar{
+    background-color: brown;
+    color:white;
+
+}
+
+.top-bar-text{
+    font-size: .8rem;
+}
+
+
+.btn{
+    border-radius: 50px;
+}
+
+.btn-orange{
+    color:white;
+    background-color: orange;
+}
+
+
+.btn-white{
+    border: 1px solid grey;
+    color: grey;
+}
+
+.page-header img{
+    width:100%;
+}
+
+.icon{
+    background-color: orange;
+    color: white;
+    
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    background-color: white;
+    border-top-right-radius: 30px;
+}
+.main{
+    background-color: rgb(237, 237, 237);
+}
+.menu-bar{
+    background-color: white;
+    
+}
+
+.category{
+    color: rgb(91, 91, 91);
+    
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.category:hover{
+    color:orange;
+    font-size:1.3rem;
+}
+
+.menu-btn{
+    background-color: white;
+    color: grey;
+    border:1px solid white;
+}
+
+.menu-btn:hover{
+    background-color: white;
+    color: grey;
+    border:1px solid white;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+
+.delivery-address{
+    border-radius: 20px;
+}
+
+.menu-item{
+    border-radius: 15px;
+   
+}
+
+.menu-item-image img{
+    width:70px;
+}
+
+.menu-item-title{
+    font-weight: 1.5rem;
+}
+.menu-item-price{
+    font-weight: bold;
+}
